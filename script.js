@@ -1,17 +1,19 @@
-var numberList = [];
-
 for(i = 1; i < 101; i++){
     if(i % 3 == 0 && i % 5 == 0){
-        numberList = 'FizzBuzz'.push;
+        'FizzBuzz'.push;
+        document.write('  FizzBuzz');
         console.log('FizzBuzz')
     } else if(i % 3 == 0) {
-    numberList = 'Fizz'.push;
-    console.log('Fizz')
+        'Fizz'.push;
+        document.write('  Fizz');
+        console.log('  Fizz')
     } else if( i % 5 == 0 ){
-        numberList = 'Buzz'.push;
+        'Buzz'.push;
+        document.write('  Buzz');
         console.log('Buzz')
     } else {
-        numberList = i.push;
+        i.push;
+        document.write('  ' + i);
         console.log(i)
     }
 }
