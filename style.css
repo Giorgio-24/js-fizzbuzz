@@ -8,3 +8,15 @@
     text-align: center;
     list-style-type: none;
 }
+
+.FizzBuzz{
+    color: #0000ff;
+}
+
+.Fizz{
+    color: #00ff00;
+}
+
+.Buzz{
+    color: #ff0000;
+}

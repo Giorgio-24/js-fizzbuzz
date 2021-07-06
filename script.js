@@ -20,13 +20,13 @@
 
 for(var i = 1; i < 101; i++){
     if(i % 3 == 0 && i % 5 == 0){
-        list.innerHTML += '<li>FizzBuzz</li>';
+        list.innerHTML += '<li class= FizzBuzz>FizzBuzz</li>';
         console.log('FizzBuzz');
     } else if(i % 3 == 0) {
-        list.innerHTML += '<li>Fizz</li>';
+        list.innerHTML += '<li class= Fizz>Fizz</li>';
         console.log('Fizz');
     } else if( i % 5 == 0 ){
-        list.innerHTML += '<li>Buzz</li>';
+        list.innerHTML += '<li class= Buzz>Buzz</li>';
         console.log('Buzz');
     } else {
         list.innerHTML += `<li>${i}</li>`;
