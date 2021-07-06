@@ -29,7 +29,7 @@ for(var i = 1; i < 101; i++){
         list.innerHTML += '<li class= Buzz>Buzz</li>';
         console.log('Buzz');
     } else {
-        list.innerHTML += `<li>${i}</li>`;
+        list.innerHTML += '<li>' + i + '</li>';
         console.log(i);
     }
 }
