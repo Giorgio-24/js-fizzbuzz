@@ -15,21 +15,24 @@
 } */
  
 
+var listElement = document.getElementById('list');
 
-
+var list = ''; 
 
 for(var i = 1; i < 101; i++){
     if(i % 3 == 0 && i % 5 == 0){
-        list.innerHTML += '<li class= FizzBuzz>FizzBuzz</li>';
+        list += '<li class= FizzBuzz>FizzBuzz</li>';
         console.log('FizzBuzz');
     } else if(i % 3 == 0) {
-        list.innerHTML += '<li class= Fizz>Fizz</li>';
+        list += '<li class= Fizz>Fizz</li>';
         console.log('Fizz');
     } else if( i % 5 == 0 ){
-        list.innerHTML += '<li class= Buzz>Buzz</li>';
+        list += '<li class= Buzz>Buzz</li>';
         console.log('Buzz');
     } else {
-        list.innerHTML += '<li>' + i + '</li>';
+        list += '<li>' + i + '</li>';
         console.log(i);
     }
 }
+
+listElement.innerHTML = list;
